@@ -3,12 +3,10 @@ import { FiGithub } from "react-icons/fi";
 
 const index = () => {
   return (
-    <div className="w-full h-[100vh] bg-[#181a1b]">
+    <div className="w-full h-[100vh] bg-darkBg">
       {/* Main Container */}
       <div className="w-full h-full flex justify-center items-center flex-col">
-        <h1 className="text-[12rem] hover:text-[#66d9ed] text-red-300">
-          Rahul Kumar
-        </h1>
+        <h1 className="text-[12rem]">Rahul Kumar</h1>
         <h3 className="text-2xl">
           Software Engineer, Full Stack & App Developer.
         </h3>

@@ -23,8 +23,12 @@ const index = () => {
     <nav className="w-full flex justify-center items-center absolute">
       {/* Logo */}
       <div className="absolute top-8 left-8 flex justify-center items-center">
-        <SiGnubash className="text-4xl" />
-        <h1 className="text-2xl">RahulKumar</h1>
+        <SiGnubash className="text-5xl" />
+        <p className="glitch">
+          <span aria-hidden="true">Rahul Kumar</span>
+          Rahul Kumar
+          <span aria-hidden="true">Rahul Kumar</span>
+        </p>
       </div>
       {/* Navbar Options */}
       <ul className="w-full flex justify-center items-center">
