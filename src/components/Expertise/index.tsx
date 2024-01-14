@@ -92,7 +92,13 @@ const techStack = [
 const index = () => {
   return (
     <section className="expertises w-full h-[100vh] bg-darkBg flex flex-col justify-start items-center">
-      <h1 className="text-[5rem] font-bold my-20">My Expertise</h1>
+      {/* Header */}
+      <div className=" w-full max-w-[1080px] my-20">
+        <span>{`<h1>`}</span>
+        <h1 className="text-[5rem] font-bold">My Expertise</h1>
+        <span>{`<h1/>`}</span>
+      </div>
+      {/* Details */}
       <div className="flex justify-center items-center flex-wrap max-w-[1080px]">
         {expertises.map((expertise, index) => (
           <div
@@ -115,15 +121,16 @@ const index = () => {
           </div>
         ))}
       </div>
-      <div className="w-full max-w-[1080px] flex flex-wrap justify-center items-center mt-10">
+      {/* Tech Stack */}
+      <div className="w-full max-w-[1080px] flex flex-wrap justify-center items-center mt-20">
         {techStack.map((tech, index) => (
           <img
             key={index}
             src={tech.imgPath}
             alt={tech.name}
-            height={70}
-            width={70}
-            className="m-8 grayscale hover:grayscale-0"
+            height={90}
+            width={90}
+            className="m-8 grayscale hover:grayscale-0 border-2 border-white p-4 rounded-lg"
           />
         ))}
       </div>

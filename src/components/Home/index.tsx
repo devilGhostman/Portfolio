@@ -16,7 +16,8 @@ const index = () => {
         <FaAngleDown />
       </span>
       {/* Right Option */}
-      <div className="absolute bottom-12 right-16 flex flex-col justify-between items-center h-20 text-2xl">
+      <div className="absolute bottom-12 right-16 flex flex-col justify-between items-center h-60 text-2xl">
+        <span className="rotate-90 py-6">Resume</span>
         <FaLinkedinIn />
         <FiGithub />
       </div>
