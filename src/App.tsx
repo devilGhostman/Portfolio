@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Expertise from "./components/Expertise";
 import Work from "./components/Work";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Expertise />
       <Work />
       <Experience />
+      <Footer />
       {/* <Loader /> */}
     </>
   );

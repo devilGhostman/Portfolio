@@ -70,7 +70,7 @@ const index = () => {
   };
 
   return (
-    <section className="w-full bg-darkBg flex flex-col justify-start items-center pt-60">
+    <section className="w-full h-auto bg-darkBg flex flex-col justify-start items-center py-10">
       {/* Header */}
       <div className=" w-full max-w-[1080px] my-20">
         <span>{`<h1>`}</span>

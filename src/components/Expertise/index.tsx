@@ -91,7 +91,7 @@ const techStack = [
 
 const index = () => {
   return (
-    <section className="expertises w-full h-[100vh] bg-darkBg flex flex-col justify-start items-center">
+    <section className="expertises w-full h-auto bg-[#e7dddd] flex flex-col justify-start items-center">
       {/* Header */}
       <div className=" w-full max-w-[1080px] my-20">
         <span>{`<h1>`}</span>
